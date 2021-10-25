@@ -17,12 +17,7 @@ import Modelo.Produto;
 import Repositorios.Carrinho;
 import Repositorios.ICarrinho;
 import Repositorios.RepositorioProduto;
-/*
- * Sammy Gabriel - 181081928
- * Igor Lima - 181080186
- * Daddo Cavalcanti - 181080914
- * Sidney Feijo - 181081919
- */
+ /* */
 public class UICompras {
 	private static Fachada fachada = Fachada.getInstancia();
 	static Scanner s = new Scanner(System.in);

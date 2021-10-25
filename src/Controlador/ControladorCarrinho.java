@@ -13,12 +13,7 @@ import Repositorios.IRepositorioCliente;
 import Repositorios.IRepositorioProduto;
 import Repositorios.RepositorioCliente;
 import Repositorios.RepositorioProduto;
-/*
- * Sammy Gabriel - 181081928
- * Igor Lima - 181080186
- * Daddo Cavalcanti - 181080914
- * Sidney Feijo - 181081919
- */
+
 public class ControladorCarrinho implements IControladorCarrinho {
 	private ICarrinho carrinho = Carrinho.getInstancia();
 	private IRepositorioProduto repositorioProduto = RepositorioProduto.getInstancia();

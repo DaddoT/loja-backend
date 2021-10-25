@@ -7,17 +7,9 @@ import Exceçoes.CadastroException;
 import Exceçoes.InserirItemCarrinhoException;
 import Exceçoes.LoginException;
 import Utilitario.PreCadastro;
-/*
- * Sammy Gabriel - 181081928
- * Igor Lima - 181080186
- * Daddo Cavalcanti - 181080914
- * Sidney Feijo - 181081919
- */
+
 public class Principal {
-	static Scanner s = new Scanner(System.in);
-	
-	
-	
+	static Scanner s = new Scanner(System.in);	
 	public static void main(String[] args) throws ParseException, CadastroException, LoginException, InserirItemCarrinhoException {
 		PreCadastro.Inicializar();
 		int op2 = 0;

@@ -1,10 +1,5 @@
 package Modelo;
-/*
- * Sammy Gabriel - 181081928
- * Igor Lima - 181080186
- * Daddo Cavalcanti - 181080914
- * Sidney Feijo - 181081919
- */
+ /* */
 import Repositorios.Carrinho;
 import Repositorios.RepositorioProduto;
 
